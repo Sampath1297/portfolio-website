@@ -17,3 +17,6 @@ document.getElementById("contactForm").addEventListener("submit", function(e) {
             "Thank you, " + name + "!";
     }
 });
+document.getElementById("darkModeBtn").addEventListener("click", function () {
+    document.body.classList.toggle("dark");
+});
